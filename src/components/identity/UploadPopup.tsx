@@ -33,10 +33,10 @@ const UploadPopup = ({ open, onAgree, onLater }: Props) => {
             <h2 className="text-xl font-bold">{t('upload_id_title')}</h2>
             <p className="text-muted-foreground text-sm">{t('upload_id_text')}</p>
             <div className="flex gap-3">
-              <button onClick={onAgree} className="flex-1 bg-primary text-primary-foreground rounded-lg py-3 font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+              <button type="button" onClick={onAgree} className="flex-1 bg-primary text-primary-foreground rounded-lg py-3 font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
                 <Camera size={18} /> {t('agree')}
               </button>
-              <button onClick={onLater} className="flex-1 bg-secondary text-secondary-foreground rounded-lg py-3 font-semibold hover:opacity-90 transition-opacity">
+              <button type="button" onClick={onLater} className="flex-1 bg-secondary text-secondary-foreground rounded-lg py-3 font-semibold hover:opacity-90 transition-opacity">
                 {t('do_it_later')}
               </button>
             </div>
