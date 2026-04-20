@@ -1,7 +1,7 @@
 # NavGuard - Secure Traveler Safety App
 
 <div align="center">
-  <img src="public/navguard-icon-144px.svg" alt="NavGuard Banner" width="100%"/>
+  <img src="public/navguard-icon-144px.svg" alt="NavGuard Banner" width="30%"/>
   
   <h1>NavGuard</h1>
   <h3><strong>Blockchain-inspired Secure Digital Identity + Real-time Safety for Travelers in High-Risk Terrains</strong></h3>
