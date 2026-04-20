@@ -1,60 +1,82 @@
 # NavGuard - Secure Traveler Safety App
 
-![NavGuard Banner](https://via.placeholder.com/1200x400/0a1428/00b894?text=NavGuard+-+Secure+Traveler+Safety)
+<div align="center">
+  <img src="https://via.placeholder.com/1200x400/0a1428/00d4aa?text=NavGuard+-+Stay+Safe+.+Stay+Verified" alt="NavGuard Banner" width="100%"/>
+  
+  <h1>NavGuard</h1>
+  <p><strong>Blockchain-inspired Secure Digital Identity + Real-time Safety for Travelers in High-Risk Terrains</strong></p>
 
-**A privacy-first, blockchain-inspired traveler safety application for high-risk terrains in India (Himalayas & Western Ghats).**
+  <a href="https://github.com/adithyan-sys/NAV-GUARD/stargazers">
+    <img src="https://img.shields.io/github/stars/adithyan-sys/NAV-GUARD?style=for-the-badge" alt="Stars"/>
+  </a>
+  <a href="https://github.com/adithyan-sys/NAV-GUARD/issues">
+    <img src="https://img.shields.io/github/issues/adithyan-sys/NAV-GUARD?style=for-the-badge" alt="Issues"/>
+  </a>
+  <a href="https://github.com/adithyan-sys/NAV-GUARD">
+    <img src="https://img.shields.io/badge/Platform-React%20%2B%20Flask-blue?style=for-the-badge" alt="Platform"/>
+  </a>
+</div>
 
-NavGuard provides a **tamper-proof Secure Digital Identity**, real-time geo-fencing with AI risk alerts, and a powerful one-tap Emergency SOS system with live video proof.
+<br>
+
+## 🚀 About NavGuard
+
+**NavGuard** is a privacy-first traveler safety application designed for high-risk terrains like the **Himalayas and Western Ghats**. It provides a **tamper-proof Secure Digital Identity**, real-time geo-fencing with risk alerts, and a powerful one-tap Emergency SOS with live video proof.
+
+**No more sharing raw Aadhaar or PAN cards.**  
+Your identity is now protected using secure hashing.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 - **Secure Digital ID**  
-  Upload Aadhaar, PAN, or Passport → Extract data using OCR → Generate unique SHA-256 based Secure ID (combining name + document ID). No raw sensitive data is stored.
+  Upload documents → Extract data using OCR → Generate unique SHA-256 Secure ID (Name + Document ID)
 
-- **Document Upload & OCR**  
-  Supports PAN Card, Passport, and Aadhaar. Extracts Name, ID Number, DOB, and Gender using OpenBharatOCR.
+- **Smart Document Upload & OCR**  
+  Supports Aadhaar, PAN Card, Passport. Extracts Name, ID Number, DOB, and Gender.
 
-- **Geo-Fencing & Risk Alerts**  
-  Real-time location tracking with color-coded risk zones (Green = Safe, Yellow = Caution, Red = High Risk) using Google Maps API.
+- **Real-time Geo-Fencing & Risk Alerts**  
+  Color-coded risk zones (🟢 Safe | 🟡 Caution | 🔴 High Risk) using Google Maps API.
 
-- **Emergency SOS**  
-  One-tap SOS with live video recording as proof. Sends alert with location and video to nearest help centers (Police, Hospital, Rescue teams).
+- **Emergency SOS with Video Proof**  
+  One-tap SOS → Record live video → Send location + video to nearest police, hospital & rescue teams.
 
-- **Privacy Focused**  
-  Only hashed data is used for identity. Fully aligned with DPDP Act principles.
+- **Privacy First**  
+  Only hashed data is used. Fully aligned with DPDP Act.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React.js + Vite + Tailwind CSS
-- **Backend**: Python + Flask
-- **OCR**: OpenBharatOCR
-- **Mapping**: Google Maps API
-- **Hashing**: CryptoJS (SHA-256)
-- **Deployment Ready**: Vercel / Render (Frontend + Backend)
+| Layer          | Technology                          |
+|----------------|-------------------------------------|
+| Frontend       | React.js + Vite + Tailwind CSS      |
+| Backend        | Python + Flask                      |
+| OCR            | OpenBharatOCR                       |
+| Maps           | Google Maps API                     |
+| Hashing        | CryptoJS (SHA-256)                  |
+| Deployment     | Vercel (Frontend) + Render (Backend)|
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Screenshots
 
-*(Add screenshots here once you upload them to the repo)*
+<div align="center">
 
-- Document Upload & OCR Screen
-  
-- Secure Digital ID Generation  
-- Geo-Fencing Map View  
-- Emergency SOS Interface  
+<img src="screenshots/upload-ocr.png" width="48%" alt="Document Upload"/>
+<img src="screenshots/secure-id.png" width="48%" alt="Secure Digital ID"/>
+
+<img src="screenshots/geo-fencing.png" width="48%" alt="Geo-Fencing"/>
+<img src="screenshots/sos-video.png" width="48%" alt="Emergency SOS"/>
+
+</div>
 
 ---
 
 ## 🚀 How to Run Locally
 
-### Backend
-
+### 1. Clone the Repository
 ```bash
-cd backend
-pip install -r requirements.txt
-python main.py
+git clone https://github.com/adithyan-sys/NAV-GUARD.git
+cd NAV-GUARD
