@@ -1,10 +1,10 @@
 # NavGuard - Secure Traveler Safety App
 
 <div align="center">
-  <img src="https://via.placeholder.com/1200x400/0a1428/00d4aa?text=NavGuard+-+Stay+Safe+.+Stay+Verified" alt="NavGuard Banner" width="100%"/>
+  <img src="public/navguard-icon-144px.svg" alt="NavGuard Banner" width="100%"/>
   
   <h1>NavGuard</h1>
-  <p><strong>Blockchain-inspired Secure Digital Identity + Real-time Safety for Travelers in High-Risk Terrains</strong></p>
+  <h3><strong>Blockchain-inspired Secure Digital Identity + Real-time Safety for Travelers in High-Risk Terrains</strong></h3>
 
   <a href="https://github.com/adithyan-sys/NAV-GUARD/stargazers">
     <img src="https://img.shields.io/github/stars/adithyan-sys/NAV-GUARD?style=for-the-badge" alt="Stars"/>
@@ -64,11 +64,11 @@ Your identity is now protected using secure hashing.
 
 <div align="center">
 
-<img src="screenshots/upload-ocr.png" width="48%" alt="Document Upload"/>
-<img src="screenshots/secure-id.png" width="48%" alt="Secure Digital ID"/>
+<img src="Screenshots/OCR_uploading.png" width="48%" alt="Document Upload"/>
+<img src="Screenshots/OCR_result.png" width="48%" alt="OCR Result"/>
 
-<img src="screenshots/geo-fencing.png" width="48%" alt="Geo-Fencing"/>
-<img src="screenshots/sos-video.png" width="48%" alt="Emergency SOS"/>
+<img src="Screenshots/Secure_ID.png" width="48%" alt="Secure ID"/>
+<img src="Screenshots/GeoFencing_Map.png" width="48%" alt="Geo Mapping"/>
 
 </div>
 
