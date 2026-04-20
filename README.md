@@ -65,7 +65,7 @@ Your identity is now protected using secure hashing.
 <div align="center">
 
 <img src="Screenshots/OCR_uploading.png" width="48%" alt="Document Upload"/>
-<img src="Screenshots/OCR_result.png" width="40%" alt="OCR Result"/>
+<img src="Screenshots/OCR_result.png" width="48%" alt="OCR Result"/>
 <img src="Screenshots/Secure_ID.png" width="48%" alt="Secure ID"/>
 <img src="Screenshots/GeoFencing_Map.png" width="48%" alt="Geo Mapping"/>
 
@@ -79,3 +79,5 @@ Your identity is now protected using secure hashing.
 ```bash
 git clone https://github.com/adithyan-sys/NAV-GUARD.git
 cd NAV-GUARD
+
+---
