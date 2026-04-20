@@ -24,7 +24,7 @@
 **NavGuard** is a privacy-first traveler safety application designed for high-risk terrains like the **Himalayas and Western Ghats**. It provides a **tamper-proof Secure Digital Identity**, real-time geo-fencing with risk alerts, and a powerful one-tap Emergency SOS with live video proof.
 
 **No more sharing raw Aadhaar or PAN cards.**  
-Your identity is now protected using secure hashing.
+Your identity is now protected by using secure hashing.
 
 ---
 
