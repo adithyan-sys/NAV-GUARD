@@ -80,4 +80,9 @@ Your identity is now protected by using secure hashing.
 git clone https://github.com/adithyan-sys/NAV-GUARD.git
 cd NAV-GUARD
 
+### 2. Install Dependency
+'''Bash
+Go to  terminal & type  - npm install
+install other library like tesseract ocr & c++ compiler - to work on Bharath ocr
+
 ---
